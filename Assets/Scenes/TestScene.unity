@@ -1695,6 +1695,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04d227f3a196b3549a253b0648a16c09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deactiveOnStart:
+  - {fileID: 789085097}
   playerInput: []
   spawnSystem: {fileID: 0}
 --- !u!4 &171328763
@@ -15634,7 +15636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 548760068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 84.4, y: 13.3, z: 177.1}
+  m_LocalPosition: {x: 84.4, y: 13.3, z: 435.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 810419411}
@@ -21575,10 +21577,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9423dd00c3b213e428c6bbb8ba938f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlayerNumber: 1
   mainObject: {fileID: 4641129413047384733}
   targetedObject: {fileID: 195605507}
-  thirdPerson: {fileID: 963194227}
+  thirdPersonCamera: {fileID: 0}
   cannonCamera: {fileID: 727499332}
   isActive: 0
   animStartFront: {fileID: 0}
@@ -22802,7 +22803,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789085097}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.9, y: 18.9, z: 497.7}
+  m_LocalPosition: {x: 18.59, y: 18.9, z: 497.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 461196705}
@@ -32682,7 +32683,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223324874}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15, y: 13.3, z: 250.8}
+  m_LocalPosition: {x: 15, y: 13.3, z: 509.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 810419411}
@@ -33345,7 +33346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280430668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.9, y: 13.3, z: 250.8}
+  m_LocalPosition: {x: 82.9, y: 13.3, z: 509.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 810419411}
@@ -33523,10 +33524,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9423dd00c3b213e428c6bbb8ba938f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlayerNumber: 1
   mainObject: {fileID: 2031307694}
   targetedObject: {fileID: 1908219328}
-  thirdPerson: {fileID: 279447261}
+  thirdPersonCamera: {fileID: 279447261}
   cannonCamera: {fileID: 732794792}
   isActive: 0
   animStartFront: {fileID: 685232557}
@@ -46276,7 +46276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045463950}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.5, y: 13.3, z: 177.1}
+  m_LocalPosition: {x: 48.5, y: 13.3, z: 435.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 810419411}

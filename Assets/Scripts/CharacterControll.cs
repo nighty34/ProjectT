@@ -165,6 +165,9 @@ namespace nightfury34{
                 isInTank = true;
                 isEntering = false;
             }
+            if(isEntering){
+                navMeshAgent.destination = tankController.animStartFront.position;
+            }
         }
 
 

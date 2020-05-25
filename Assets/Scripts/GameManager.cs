@@ -9,6 +9,8 @@ namespace nightfury34
     public class GameManager : MonoBehaviour
     {
         public static GameManager Instance { get; private set; }
+
+        public List<GameObject> deactiveOnStart = new List<GameObject>();
         public List<PlayerInputs> playerInput = new List<PlayerInputs>();
 
         public PlayerSpawnSystem spawnSystem;
@@ -22,6 +24,10 @@ namespace nightfury34
         }
 
         void Start(){
+            spawnSystem.SpawnPlayerA(playerInput[0]);
+            foreach(GameObject obj in deactiveOnStart){
+                obj.SetActive(false);
+            }
         }
 
         void Update()
